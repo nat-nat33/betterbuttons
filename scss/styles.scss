@@ -1,7 +1,25 @@
+$primaryColor: #F9F6CD;
+$buttonLarge: #00aced;
+$textColor: #a93952;
+
 body {
-  background-color: red;
+  background-color: $primaryColor;
 
   h1 {
-    color: purple;
+    color: $textColor;
+    text-align: center;
   }
+}
+
+button.buttonLarge{
+  background-color: $buttonLarge;
+  height: 50px;
+  width: 100px;
+
+  &:hover{
+    background-color: darken($buttonLarge, 20%);
+    height: 55px;
+    width: 105px;
+  }
+
 }

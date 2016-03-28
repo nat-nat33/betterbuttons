@@ -1,4 +1,14 @@
 body {
-  background-color: red; }
+  background-color: #F9F6CD; }
   body h1 {
-    color: purple; }
+    color: #a93952;
+    text-align: center; }
+
+button.buttonLarge {
+  background-color: #00aced;
+  height: 50px;
+  width: 100px; }
+  button.buttonLarge:hover {
+    background-color: #006287;
+    height: 55px;
+    width: 105px; }
